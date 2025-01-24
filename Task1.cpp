@@ -1,21 +1,23 @@
+// Simple Calculator 
 #include<iostream>
 using namespace std;
 
 class Arithmetic
 {
-    public:
-        int iRet;
-        int iValue1;
-        int iValue2;
+    public:                 //Public Access Specifiers
+        
+        int iRet;           //---------------------------
+        int iValue1;        //------characteristics------
+        int iValue2;        //---------------------------
 
-        Arithmetic(int x, int y)
+        Arithmetic(int x, int y)        // Parameterized Constructor
         {
             iRet = 0;
             iValue1 = x;
             iValue2 = y;
         }
 
-        void Calculations()
+        void Calculations()             // Function with void return type
         {
             
             cout<<"----------Menu----------"<<endl;
@@ -65,9 +67,9 @@ int main()
     cout<<"Enter Second Number : "<<endl;
     cin>>iNo2;
 
-    Arithmetic aobj(iNo1,iNo2);
+    Arithmetic aobj(iNo1,iNo2);         // Object Creation
 
-    aobj.Calculations();
+    aobj.Calculations();                // Function Calling
 
     return 0;
 }
