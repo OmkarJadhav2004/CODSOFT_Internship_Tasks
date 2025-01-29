@@ -44,3 +44,32 @@ FLOW:-
 
 ->Function is Called with the help of object.
 
+---------------------------------------------------------------------------------------------------------------------------------------------------
+
+TASK 3 :- Tic Tac Toe Game in C++
+
+*Here I have implemented Pointer, Array, and Object Oriented Concepts
+
+FLOW:-
+
+->Created Class Name TicTacToe. 
+
+->Characteristics are created under public access specifiers.
+
+->parameterized constructor is used to intialize the characteristics.
+
+->drawBoard() function is used to Display the game Grid on Console.
+
+->Player1Move() function is used to accept the marker X and place into a single grid out of 9. 
+
+->Player2Move() function is used to accept the marker O and place into a single grid out of 9.
+
+->checkWinner() function is used to check winner of the game.
+
+->checkTie() function is used to check whether their is Tie.  
+
+->Object is Created in main function.
+
+->Functions are Called with the help of object.
+
+---------------------------------------------------------------------------------------------------------------------------------------------------
