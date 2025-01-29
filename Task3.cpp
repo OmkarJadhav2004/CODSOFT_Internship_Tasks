@@ -1,6 +1,5 @@
 // Tic Tac Toe Game
 #include<iostream>
-#include<ctime>
 
 using namespace std ;
 
